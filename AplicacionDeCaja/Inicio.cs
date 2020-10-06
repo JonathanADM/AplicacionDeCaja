@@ -25,6 +25,7 @@ namespace AplicacionDeCaja
         {
            
         }
+
         private void LogUsuario_KeyDown_1(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -64,5 +65,6 @@ namespace AplicacionDeCaja
         {
             Application.Exit();
         }
+
     }
 }

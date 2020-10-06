@@ -46,7 +46,7 @@
             // LogContraseña
             // 
             this.LogContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogContraseña.Location = new System.Drawing.Point(452, 357);
+            this.LogContraseña.Location = new System.Drawing.Point(452, 373);
             this.LogContraseña.Name = "LogContraseña";
             this.LogContraseña.PasswordChar = '*';
             this.LogContraseña.Size = new System.Drawing.Size(308, 38);
@@ -67,7 +67,7 @@
             this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInicio.FlatAppearance.BorderSize = 0;
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicio.Location = new System.Drawing.Point(777, 348);
+            this.btnInicio.Location = new System.Drawing.Point(782, 366);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(34, 52);
             this.btnInicio.TabIndex = 5;
@@ -89,11 +89,11 @@
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(160, 50);
+            this.label1.Location = new System.Drawing.Point(256, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 153);
+            this.label1.Size = new System.Drawing.Size(288, 153);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Easy";
+            this.label1.Text = "Evil";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -103,9 +103,9 @@
             this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(641, 57);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(478, 153);
+            this.label2.Size = new System.Drawing.Size(363, 153);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Money";
+            this.label2.Text = "Corp";
             // 
             // label3
             // 
@@ -122,7 +122,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(325, 309);
+            this.label4.Location = new System.Drawing.Point(325, 320);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 32);
             this.label4.TabIndex = 11;
@@ -132,7 +132,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(276, 360);
+            this.label5.Location = new System.Drawing.Point(276, 373);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(170, 32);
             this.label5.TabIndex = 12;
@@ -141,7 +141,7 @@
             // LogUsuario
             // 
             this.LogUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogUsuario.Location = new System.Drawing.Point(452, 306);
+            this.LogUsuario.Location = new System.Drawing.Point(452, 319);
             this.LogUsuario.Name = "LogUsuario";
             this.LogUsuario.Size = new System.Drawing.Size(308, 38);
             this.LogUsuario.TabIndex = 13;

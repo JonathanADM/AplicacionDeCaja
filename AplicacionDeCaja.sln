@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionDeCaja", "AplicacionDeCaja\AplicacionDeCaja.csproj", "{960E0299-58FE-4E5B-A213-210F2F632D84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pruebas", "Pruebas\Pruebas.csproj", "{660879A6-B17B-4F4A-BA0C-F5DC8A312E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{960E0299-58FE-4E5B-A213-210F2F632D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960E0299-58FE-4E5B-A213-210F2F632D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960E0299-58FE-4E5B-A213-210F2F632D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660879A6-B17B-4F4A-BA0C-F5DC8A312E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660879A6-B17B-4F4A-BA0C-F5DC8A312E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660879A6-B17B-4F4A-BA0C-F5DC8A312E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660879A6-B17B-4F4A-BA0C-F5DC8A312E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

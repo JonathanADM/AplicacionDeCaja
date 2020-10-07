@@ -12,9 +12,11 @@ namespace AplicacionDeCaja
 {
     public partial class AppCaja : Form
     {
+        public static AppCaja mdiobj;
         public AppCaja()
         {
             InitializeComponent();
+
         }
 
         private void AppCaja_Load(object sender, EventArgs e)
@@ -34,6 +36,8 @@ namespace AplicacionDeCaja
             }
             #endregion
 
+            clienteToolStripMenuItem.Enabled = false;
+            mdiobj = this;
         }
 
         private void AppCaja_FormClosed(object sender, FormClosedEventArgs e)
@@ -48,6 +52,21 @@ namespace AplicacionDeCaja
             {
                 inicio.ShowDialog();
             }
+           
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cliente FormCliente = new Cliente();
+            FormCliente.MdiParent = this;
+            FormCliente.Show();
+        }
+
+        private void abrirCajaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirCaja FormAbrirCaja = new AbrirCaja();
+            FormAbrirCaja.MdiParent = this;
+            FormAbrirCaja.Show();
         }
     }
 }
